@@ -1,0 +1,52 @@
+.Home{
+    display: flex;
+}
+
+.Banner{
+    padding: 9rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.Left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Right{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+}
+
+.Right>p{
+    font-size: 40px;
+}
+
+
+.Passion{
+    font-size: 40px;
+    color: #FCCB06;
+}
+
+.Left>img{
+    width: 50%;
+    border-radius: 50%;
+}
+
+
+
+
+
+@media (max-width: 700px) {
+    .Right>p {
+      font-size: 18px; 
+    }
+}

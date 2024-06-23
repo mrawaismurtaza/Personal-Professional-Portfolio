@@ -1,0 +1,35 @@
+.Navbar{
+    position: fixed;
+    width: 100%;
+    height: 4rem;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.Title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Title>p{
+    font-size: 1rem;
+    font-weight: 600;
+
+}
+
+
+.Nav-List{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+
+}
+
+.Nav-List>li{
+    list-style: none;
+}

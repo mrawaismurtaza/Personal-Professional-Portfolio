@@ -1,0 +1,35 @@
+const passion = [
+    "Software Engineer",
+    "Frontend Developer",
+    "Backend Developer",
+    "Full Stack Developer",
+    "Mobile App Developer",
+    "Quality Assurance",
+    "Database Administrator",
+    "Software Tester",
+    "Web Developer",
+    "E-commerce Developer",
+    "Automation Engineer",
+    "Data Engineer",
+    "Python Developer",
+    "Java Developer",
+    "C# Developer",
+    "JavaScript Developer",
+    "Node.js Developer",
+    "React Developer",
+    "Laravel Developer",
+    "Flutter Developer",
+    "TypeScript Developer",
+    "SQL Developer",
+    "GraphQL Developer",
+    "REST API Developer",
+    "Backend Framework Developer",
+    "Linux Administrator",
+    "Windows Administrator",
+    "Frontend Architect",
+    "Backend Architect",
+    "Freelancer"
+];
+
+
+export default passion;
