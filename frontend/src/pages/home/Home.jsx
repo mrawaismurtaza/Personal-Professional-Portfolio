@@ -4,7 +4,7 @@ import Navbar from '../../components/navbar/Navbar'
 import "./Home.css"
 import Button from '../../components/button/Button'
 import PortFolio from "../../images/Portfolio Picture.png" 
-import passion from "../data/Data"
+import { passion } from "../data/Data"
 
 function Home() {
 
@@ -28,14 +28,14 @@ function Home() {
     <div className="Home">
         <Navbar/>
         <div className="Banner">
-          <div className="Right">
+          <div className="Right-Section">
             <p>Hi, <br /> I'm Awais
             <br />
             <span className='Passion'>{passion[currentIndex]}</span>
             </p>
             <Button/>
           </div>
-          <div className="Left">
+          <div className="Left-Section">
             <img src={PortFolio} alt="" />
           </div>
         </div>

@@ -1,4 +1,54 @@
+.skill-project{
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    position: relative;
+    height: 100%;
+}
+
+
+.Titles{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: blue;
+    text-decoration: underline 5px;
+}
+
+.Titles>p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 2rem;
+    color: blue;
+}
+
+
+
 .Skills{
-    margin-top: 100px;
-    font-size: large;
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Left{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 9.3rem;
+}
+
+
+.Right{
+    height: 100%;
 }

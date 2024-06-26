@@ -1,0 +1,40 @@
+.Skill>div:nth-of-type(1){
+    padding: 1%;
+    position: relative;
+    width: 35rem;
+    height: 2.7rem;
+    display: grid;
+    grid-template-columns: 15% 75% 10%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+    border-radius: 0.5rem;
+}
+
+
+.Icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Icons{
+    border-radius: 0.5rem;
+    color: #fff;
+    background-color: #4070f4;
+    font-size: 1.5rem;
+    padding: 4px;
+}
+
+
+.Name,.Percentage{
+    font-weight: 600;
+}
+
+.Line{
+    /* width: 85%; */
+    margin-top: -3px;
+    height: 3px;
+    color: red;
+    background-color: #4070f4;
+}
