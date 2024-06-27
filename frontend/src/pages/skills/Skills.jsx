@@ -8,8 +8,8 @@ function Skills() {
   return (
     <div className='skill-project'>
     <div className="Titles">
-        <p>Skills</p>
-        <p>Projects</p>
+        <p>S<span className='sub-title'>kill</span>s</p>
+        <p>P<span className='sub-title'>roject</span>s</p>
       </div>
     <div className="Skills">
       

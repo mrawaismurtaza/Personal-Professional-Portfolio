@@ -8,10 +8,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: 600;
-    font-size: 3rem;
-    color: blue;
-    text-decoration: underline 5px;
+    font-weight: 800;
+    font-size: 2rem;
+    color: #4070f4;
+}
+
+.sub-title{
+    text-decoration: underline 3px;
+    text-underline-offset: 10px;
 }
 
 .About-sec{
@@ -21,6 +25,10 @@
 
 .Left-sec{
     padding: 20%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Left-sec>img{

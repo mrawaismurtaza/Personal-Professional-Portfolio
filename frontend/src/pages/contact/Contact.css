@@ -1,0 +1,60 @@
+.contact-footer{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+
+
+.Contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.Title-Contact>p{
+    align-self: center;
+    width: 100%;
+    color: #4070f4;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.Input-Fields{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Input-Fields>input{
+    outline: none;width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1.5px solid #0e2431;
+    outline: none;
+    margin-bottom: 2rem;
+}
+
+.Input-Fields>textarea{
+    
+    outline: none;width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1.5px solid #0e2431;
+    outline: none;
+    margin-bottom: 2rem;
+    height: 10rem;
+}
+
+
+.cont-button{
+    cursor: pointer;
+    text-decoration: none;
+}

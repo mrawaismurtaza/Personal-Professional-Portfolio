@@ -5,7 +5,10 @@ import PortFolio from "../../images/Portfolio Picture.png"
 export default function About() {
   return (
     <div className="About">
-      <div className="About-Title">About</div>
+      <div className="About-Title">
+  A<span className="sub-title">bou</span>t
+</div>
+
       <div className="About-sec">
         <div className="Left-sec">
           <img src={PortFolio} alt="" />
