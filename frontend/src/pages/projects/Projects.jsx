@@ -3,7 +3,7 @@ import Project from '../../components/Project/Project'
 
 function Projects() {
   return (
-    <div className="Projects">
+    <div className="Projects" id='projects'>
       <Project/>
     </div>
   )

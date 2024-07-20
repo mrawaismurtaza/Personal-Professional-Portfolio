@@ -33,4 +33,12 @@
 
 .Nav-List>li{
     list-style: none;
+    cursor: pointer;
+}
+li:hover {
+    border-bottom: 4px solid black;
+}
+
+li>a{
+    color: black;
 }

@@ -6,7 +6,7 @@ import Project from '../../components/Project/Project';
 
 function Skills() {
   return (
-    <div className='skill-project'>
+    <div className='skill-project' id='skills'>
     <div className="Titles">
         <p>S<span className='sub-title'>kill</span>s</p>
         <p>P<span className='sub-title'>roject</span>s</p>

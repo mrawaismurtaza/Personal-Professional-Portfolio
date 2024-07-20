@@ -18,7 +18,7 @@ function Contact() {
   const mailtoLink = `mailto:mrawaismurtaza@gmail.com?subject=${encodeMailtoParams('Your Subject')}&body=${encodeMailtoParams(message)}`;
 
   return (
-    <div className='contact-footer'>
+    <div className='contact-footer' id='contact'>
       <div className="Contact">
         <div className="Title-Contact">
           <p>C<span className='sub-title'>ontac</span>t</p>

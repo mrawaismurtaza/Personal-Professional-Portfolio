@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import Navbar from '../../components/navbar/Navbar'
 import "./Home.css"
 import Button from '../../components/button/Button'
+import Picture from '../../images/Software.jpeg'
 import PortFolio from "../../images/Portfolio Picture.png" 
 import { passion } from "../data/Data"
 
@@ -36,7 +37,7 @@ function Home() {
             <Button/>
           </div>
           <div className="Left-Section">
-            <img src={PortFolio} alt="" />
+            <img src={Picture} alt="" />
           </div>
         </div>
     </div>
