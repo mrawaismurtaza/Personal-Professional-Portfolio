@@ -2,15 +2,20 @@
   --white: #fff;
 }
 
-
-.App{
+.App {
   background-color: var(--white);
-  height: 100%;
   display: flex;
   flex-direction: column;
   gap: 4rem;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
-.App>h1{
-  margin: 0%;
+.App::-webkit-scrollbar {
+  display: none;
+}
+
+.App {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }

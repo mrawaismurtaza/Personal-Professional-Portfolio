@@ -1,4 +1,4 @@
-.skill-project{
+.skill-project {
     display: flex;
     flex-direction: column;
     gap: 5rem;
@@ -6,8 +6,7 @@
     height: 100%;
 }
 
-
-.Titles{
+.Titles {
     display: grid;
     grid-template-columns: 50% 50%;
     align-items: center;
@@ -15,7 +14,7 @@
     width: 100%;
 }
 
-.Titles>p{
+.Titles > p {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,21 +23,18 @@
     color: #4070f4;
 }
 
-
-
-.Skills{
+.Skills {
     position: relative;
     width: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
-    height: 100%;
+    height: auto;
     align-items: center;
     justify-content: center;
 }
 
-.Left{
+.Left {
     width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,7 +42,46 @@
     gap: 9.3rem;
 }
 
+.Right {
+    width: 100%;
+}
 
-.Right{
-    height: 100%;
+@media (max-width: 768px) {
+    .skill-project{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .Titles {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .Titles > p {
+        font-size: 1.5rem;
+    }
+
+    .Skills {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .Left {
+        gap: 2rem;
+        width: 70%;
+    }
+}
+
+@media (max-width: 480px) {
+    .Titles > p {
+        font-size: 1.2rem;
+    }
+
+    .Left {
+        gap: 1.5rem;
+    }
 }

@@ -4,7 +4,6 @@ import Navbar from '../../components/navbar/Navbar'
 import "./Home.css"
 import Button from '../../components/button/Button'
 import Picture from '../../images/Software.jpeg'
-import PortFolio from "../../images/Portfolio Picture.png" 
 import { passion } from "../data/Data"
 
 function Home() {
@@ -26,7 +25,7 @@ function Home() {
 
 
   return (
-    <div className="Home">
+    <div className="Home" id='home'>
         <Navbar/>
         <div className="Banner">
           <div className="Right-Section">

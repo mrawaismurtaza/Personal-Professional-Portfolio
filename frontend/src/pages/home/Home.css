@@ -51,4 +51,9 @@
     .Right>p {
       font-size: 18px; 
     }
+
+    .Banner{
+        padding: 5rem;
+        display: flex;
+    }
 }
